@@ -83,7 +83,7 @@ L DB9_connector J3
 U 1 1 54C3369D
 P 10700 3000
 F 0 "J3" H 10850 2950 60  0000 C CNN
-F 1 "DB9_connector" H 10850 3100 60  0000 C CNN
+F 1 "DB9 Z" H 10850 3100 60  0000 C CNN
 F 2 "" H 10700 3000 60  0001 C CNN
 F 3 "" H 10700 3000 60  0000 C CNN
 	1    10700 3000
@@ -94,7 +94,7 @@ L DB9_connector J2
 U 1 1 54C33A18
 P 10700 1850
 F 0 "J2" H 10850 1800 60  0000 C CNN
-F 1 "DB9_connector" H 10850 1950 60  0000 C CNN
+F 1 "DB9 Y" H 10850 1950 60  0000 C CNN
 F 2 "" H 10700 1850 60  0001 C CNN
 F 3 "" H 10700 1850 60  0000 C CNN
 	1    10700 1850
@@ -105,7 +105,7 @@ L DB9_connector J1
 U 1 1 54C33A6B
 P 10700 700
 F 0 "J1" H 10850 650 60  0000 C CNN
-F 1 "DB9_connector" H 10850 800 60  0000 C CNN
+F 1 "DB9 X" H 10850 800 60  0000 C CNN
 F 2 "" H 10700 700 60  0001 C CNN
 F 3 "" H 10700 700 60  0000 C CNN
 	1    10700 700 
@@ -533,7 +533,7 @@ Text GLabel 950  6450 3    49   Input ~ 0
 step1
 Text GLabel 1050 6450 3    49   Input ~ 0
 dir1
-Text GLabel 1150 6450 3    49   Input ~ 0
+Text GLabel 1250 6450 3    49   Input ~ 0
 reset1
 Text GLabel 1250 7050 1    49   Input ~ 0
 ms1_1
@@ -543,13 +543,13 @@ Text GLabel 1050 7050 1    49   Input ~ 0
 ms3_1
 Text GLabel 950  7050 1    49   Input ~ 0
 enable1
-Text GLabel 1250 6450 3    49   Input ~ 0
+Text GLabel 1150 6450 3    49   Input ~ 0
 sleep1
 Text GLabel 1600 6450 3    49   Input ~ 0
 step2
 Text GLabel 1700 6450 3    49   Input ~ 0
 dir2
-Text GLabel 1800 6450 3    49   Input ~ 0
+Text GLabel 1900 6450 3    49   Input ~ 0
 reset2
 Text GLabel 1900 7050 1    49   Input ~ 0
 ms1_2
@@ -559,13 +559,13 @@ Text GLabel 1700 7050 1    49   Input ~ 0
 ms3_2
 Text GLabel 1600 7050 1    49   Input ~ 0
 enable2
-Text GLabel 1900 6450 3    49   Input ~ 0
+Text GLabel 1800 6450 3    49   Input ~ 0
 sleep2
 Text GLabel 2200 6450 3    49   Input ~ 0
 step3
 Text GLabel 2300 6450 3    49   Input ~ 0
 dir3
-Text GLabel 2400 6450 3    49   Input ~ 0
+Text GLabel 2500 6450 3    49   Input ~ 0
 reset3
 Text GLabel 2500 7050 1    49   Input ~ 0
 ms1_3
@@ -575,19 +575,8 @@ Text GLabel 2300 7050 1    49   Input ~ 0
 ms3_3
 Text GLabel 2200 7050 1    49   Input ~ 0
 enable3
-Text GLabel 2500 6450 3    49   Input ~ 0
+Text GLabel 2400 6450 3    49   Input ~ 0
 sleep3
-$Comp
-L R R10
-U 1 1 54C5F5D2
-P 950 6150
-F 0 "R10" V 950 5800 50  0000 C CNN
-F 1 "20k" V 950 6150 50  0000 C CNN
-F 2 "" V 880 6150 30  0001 C CNN
-F 3 "" H 950 6150 30  0000 C CNN
-	1    950  6150
-	-1   0    0    1   
-$EndComp
 $Comp
 L R R7
 U 1 1 54C63025
@@ -686,127 +675,6 @@ F 2 "" H 9300 5700 60  0000 C CNN
 F 3 "" H 9300 5700 60  0000 C CNN
 	1    9300 5700
 	1    0    0    -1  
-$EndComp
-$Comp
-L R R11
-U 1 1 54C7CC23
-P 1050 6150
-F 0 "R11" V 1050 5800 50  0000 C CNN
-F 1 "20k" V 1050 6150 50  0000 C CNN
-F 2 "" V 980 6150 30  0001 C CNN
-F 3 "" H 1050 6150 30  0000 C CNN
-	1    1050 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R12
-U 1 1 54C7CC55
-P 1150 6150
-F 0 "R12" V 1150 5800 50  0000 C CNN
-F 1 "20k" V 1150 6150 50  0000 C CNN
-F 2 "" V 1080 6150 30  0001 C CNN
-F 3 "" H 1150 6150 30  0000 C CNN
-	1    1150 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R13
-U 1 1 54C7CC8E
-P 1250 6150
-F 0 "R13" V 1250 5800 50  0000 C CNN
-F 1 "20k" V 1250 6150 50  0000 C CNN
-F 2 "" V 1180 6150 30  0001 C CNN
-F 3 "" H 1250 6150 30  0000 C CNN
-	1    1250 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R14
-U 1 1 54C7CDD9
-P 1600 6150
-F 0 "R14" V 1600 5800 50  0000 C CNN
-F 1 "20k" V 1600 6150 50  0000 C CNN
-F 2 "" V 1530 6150 30  0001 C CNN
-F 3 "" H 1600 6150 30  0000 C CNN
-	1    1600 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R15
-U 1 1 54C7CDDF
-P 1700 6150
-F 0 "R15" V 1700 5800 50  0000 C CNN
-F 1 "20k" V 1700 6150 50  0000 C CNN
-F 2 "" V 1630 6150 30  0001 C CNN
-F 3 "" H 1700 6150 30  0000 C CNN
-	1    1700 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R16
-U 1 1 54C7CDE5
-P 1800 6150
-F 0 "R16" V 1800 5800 50  0000 C CNN
-F 1 "20k" V 1800 6150 50  0000 C CNN
-F 2 "" V 1730 6150 30  0001 C CNN
-F 3 "" H 1800 6150 30  0000 C CNN
-	1    1800 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R17
-U 1 1 54C7CDEB
-P 1900 6150
-F 0 "R17" V 1900 5800 50  0000 C CNN
-F 1 "20k" V 1900 6150 50  0000 C CNN
-F 2 "" V 1830 6150 30  0001 C CNN
-F 3 "" H 1900 6150 30  0000 C CNN
-	1    1900 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R18
-U 1 1 54C7D471
-P 2200 6150
-F 0 "R18" V 2200 5800 50  0000 C CNN
-F 1 "20k" V 2200 6150 50  0000 C CNN
-F 2 "" V 2130 6150 30  0001 C CNN
-F 3 "" H 2200 6150 30  0000 C CNN
-	1    2200 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R19
-U 1 1 54C7D477
-P 2300 6150
-F 0 "R19" V 2300 5800 50  0000 C CNN
-F 1 "20k" V 2300 6150 50  0000 C CNN
-F 2 "" V 2230 6150 30  0001 C CNN
-F 3 "" H 2300 6150 30  0000 C CNN
-	1    2300 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R20
-U 1 1 54C7D47D
-P 2400 6150
-F 0 "R20" V 2400 5800 50  0000 C CNN
-F 1 "20k" V 2400 6150 50  0000 C CNN
-F 2 "" V 2330 6150 30  0001 C CNN
-F 3 "" H 2400 6150 30  0000 C CNN
-	1    2400 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R21
-U 1 1 54C7D483
-P 2500 6150
-F 0 "R21" V 2500 5800 50  0000 C CNN
-F 1 "20k" V 2500 6150 50  0000 C CNN
-F 2 "" V 2430 6150 30  0001 C CNN
-F 3 "" H 2500 6150 30  0000 C CNN
-	1    2500 6150
-	-1   0    0    1   
 $EndComp
 $Comp
 L R R22
@@ -1400,21 +1268,10 @@ PWR_IN
 $Comp
 L CONN_01X06 J5
 U 1 1 54C74D6A
-P 850 1050
-F 0 "J5" H 850 1400 50  0000 C CNN
-F 1 "Settings_1" H 850 650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 850 1050 60  0001 C CNN
-F 3 "" H 850 1050 60  0000 C CNN
-	1    850  1050
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X03 J10
-U 1 1 54C75D84
 P 850 1800
-F 0 "J10" H 850 2000 50  0000 C CNN
-F 1 "Control_1" H 850 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 850 1800 60  0001 C CNN
+F 0 "J5" H 850 2150 50  0000 C CNN
+F 1 "Settings X" H 850 1400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 850 1800 60  0001 C CNN
 F 3 "" H 850 1800 60  0000 C CNN
 	1    850  1800
 	-1   0    0    1   
@@ -1422,21 +1279,10 @@ $EndComp
 $Comp
 L CONN_01X06 J12
 U 1 1 54C7B1C0
-P 1700 1050
-F 0 "J12" H 1700 1400 50  0000 C CNN
-F 1 "Settings_2" H 1700 650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 1700 1050 60  0001 C CNN
-F 3 "" H 1700 1050 60  0000 C CNN
-	1    1700 1050
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X03 J13
-U 1 1 54C7B1C6
 P 1700 1800
-F 0 "J13" H 1700 2000 50  0000 C CNN
-F 1 "Control_2" H 1700 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1700 1800 60  0001 C CNN
+F 0 "J12" H 1700 2150 50  0000 C CNN
+F 1 "Settings Y" H 1700 1400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 1700 1800 60  0001 C CNN
 F 3 "" H 1700 1800 60  0000 C CNN
 	1    1700 1800
 	-1   0    0    1   
@@ -1444,139 +1290,62 @@ $EndComp
 $Comp
 L CONN_01X06 J15
 U 1 1 54C7C754
-P 2550 1050
-F 0 "J15" H 2550 1400 50  0000 C CNN
-F 1 "Settings_3" H 2550 650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 2550 1050 60  0001 C CNN
-F 3 "" H 2550 1050 60  0000 C CNN
-	1    2550 1050
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X03 J16
-U 1 1 54C7C75A
 P 2550 1800
-F 0 "J16" H 2550 2000 50  0000 C CNN
-F 1 "Control_3" H 2550 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 2550 1800 60  0001 C CNN
+F 0 "J15" H 2550 2150 50  0000 C CNN
+F 1 "Settings Z" H 2550 1400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 2550 1800 60  0001 C CNN
 F 3 "" H 2550 1800 60  0000 C CNN
 	1    2550 1800
 	-1   0    0    1   
 $EndComp
-Text GLabel 1050 900  2    49   Input ~ 0
+Text GLabel 1050 1650 2    49   Input ~ 0
 reset1
-Text GLabel 1050 1300 2    49   Input ~ 0
+Text GLabel 1050 2050 2    49   Input ~ 0
 ms1_1
-Text GLabel 1050 1200 2    49   Input ~ 0
+Text GLabel 1050 1950 2    49   Input ~ 0
 ms2_1
-Text GLabel 1050 1100 2    49   Input ~ 0
+Text GLabel 1050 1850 2    49   Input ~ 0
 ms3_1
-Text GLabel 1050 1000 2    49   Input ~ 0
+Text GLabel 1050 1750 2    49   Input ~ 0
 enable1
-Text GLabel 1050 800  2    49   Input ~ 0
+Text GLabel 1050 1550 2    49   Input ~ 0
 sleep1
-Text GLabel 1050 1700 2    49   Input ~ 0
+Text GLabel 1050 1150 2    49   Input ~ 0
 dir1
-Text GLabel 1050 1800 2    49   Input ~ 0
+Text GLabel 1050 1050 2    49   Input ~ 0
 step1
-$Comp
-L GND #PWR037
-U 1 1 54C87723
-P 1100 2000
-F 0 "#PWR037" H 1100 1750 60  0001 C CNN
-F 1 "GND" H 1100 1850 60  0000 C CNN
-F 2 "" H 1100 2000 60  0000 C CNN
-F 3 "" H 1100 2000 60  0000 C CNN
-	1    1100 2000
-	1    0    0    -1  
-$EndComp
-Text GLabel 1900 1700 2    49   Input ~ 0
+Text GLabel 1900 1150 2    49   Input ~ 0
 dir2
-Text GLabel 1900 1800 2    49   Input ~ 0
+Text GLabel 1900 1050 2    49   Input ~ 0
 step2
-$Comp
-L GND #PWR038
-U 1 1 54C87CED
-P 1950 2000
-F 0 "#PWR038" H 1950 1750 60  0001 C CNN
-F 1 "GND" H 1950 1850 60  0000 C CNN
-F 2 "" H 1950 2000 60  0000 C CNN
-F 3 "" H 1950 2000 60  0000 C CNN
-	1    1950 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR039
-U 1 1 54C87FD1
-P 2800 2000
-F 0 "#PWR039" H 2800 1750 60  0001 C CNN
-F 1 "GND" H 2800 1850 60  0000 C CNN
-F 2 "" H 2800 2000 60  0000 C CNN
-F 3 "" H 2800 2000 60  0000 C CNN
-	1    2800 2000
-	1    0    0    -1  
-$EndComp
-Text GLabel 2750 1800 2    49   Input ~ 0
+Text GLabel 2750 1050 2    49   Input ~ 0
 step3
-Text GLabel 2750 1700 2    49   Input ~ 0
+Text GLabel 2750 1150 2    49   Input ~ 0
 dir3
-Text GLabel 1900 900  2    49   Input ~ 0
+Text GLabel 1900 1650 2    49   Input ~ 0
 reset2
-Text GLabel 1900 1300 2    49   Input ~ 0
+Text GLabel 1900 2050 2    49   Input ~ 0
 ms1_2
-Text GLabel 1900 1200 2    49   Input ~ 0
+Text GLabel 1900 1950 2    49   Input ~ 0
 ms2_2
-Text GLabel 1900 1100 2    49   Input ~ 0
+Text GLabel 1900 1850 2    49   Input ~ 0
 ms3_2
-Text GLabel 1900 1000 2    49   Input ~ 0
+Text GLabel 1900 1750 2    49   Input ~ 0
 enable2
-Text GLabel 1900 800  2    49   Input ~ 0
+Text GLabel 1900 1550 2    49   Input ~ 0
 sleep2
-Text GLabel 2750 900  2    49   Input ~ 0
+Text GLabel 2750 1650 2    49   Input ~ 0
 reset3
-Text GLabel 2750 1300 2    49   Input ~ 0
+Text GLabel 2750 2050 2    49   Input ~ 0
 ms1_3
-Text GLabel 2750 1200 2    49   Input ~ 0
+Text GLabel 2750 1950 2    49   Input ~ 0
 ms2_3
-Text GLabel 2750 1100 2    49   Input ~ 0
+Text GLabel 2750 1850 2    49   Input ~ 0
 ms3_3
-Text GLabel 2750 1000 2    49   Input ~ 0
+Text GLabel 2750 1750 2    49   Input ~ 0
 enable3
-Text GLabel 2750 800  2    49   Input ~ 0
+Text GLabel 2750 1550 2    49   Input ~ 0
 sleep3
-$Comp
-L CONN_01X03 J11
-U 1 1 54CBEC8D
-P 850 2550
-F 0 "J11" H 850 2750 50  0000 C CNN
-F 1 "Sensor_1" H 850 2300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 850 2550 60  0001 C CNN
-F 3 "" H 850 2550 60  0000 C CNN
-	1    850  2550
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X03 J17
-U 1 1 54CBF4EB
-P 2550 2550
-F 0 "J17" H 2550 2750 50  0000 C CNN
-F 1 "Sensor_3" H 2550 2300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 2550 2550 60  0001 C CNN
-F 3 "" H 2550 2550 60  0000 C CNN
-	1    2550 2550
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X03 J14
-U 1 1 54CBF679
-P 1700 2550
-F 0 "J14" H 1700 2750 50  0000 C CNN
-F 1 "Sensor_2" H 1700 2300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1700 2550 60  0001 C CNN
-F 3 "" H 1700 2550 60  0000 C CNN
-	1    1700 2550
-	-1   0    0    1   
-$EndComp
 Text GLabel 10500 900  0    49   Input ~ 0
 sensor1_1
 Text GLabel 10500 1000 0    49   Input ~ 0
@@ -1601,39 +1370,6 @@ Text GLabel 2750 2450 2    49   Input ~ 0
 sensor1_3
 Text GLabel 2750 2550 2    49   Input ~ 0
 sensor2_3
-$Comp
-L GND #PWR040
-U 1 1 54CCB95B
-P 1100 2750
-F 0 "#PWR040" H 1100 2500 60  0001 C CNN
-F 1 "GND" H 1100 2600 60  0000 C CNN
-F 2 "" H 1100 2750 60  0000 C CNN
-F 3 "" H 1100 2750 60  0000 C CNN
-	1    1100 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR041
-U 1 1 54CCB9B5
-P 1950 2750
-F 0 "#PWR041" H 1950 2500 60  0001 C CNN
-F 1 "GND" H 1950 2600 60  0000 C CNN
-F 2 "" H 1950 2750 60  0000 C CNN
-F 3 "" H 1950 2750 60  0000 C CNN
-	1    1950 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR042
-U 1 1 54CCBA0F
-P 2800 2750
-F 0 "#PWR042" H 2800 2500 60  0001 C CNN
-F 1 "GND" H 2800 2600 60  0000 C CNN
-F 2 "" H 2800 2750 60  0000 C CNN
-F 3 "" H 2800 2750 60  0000 C CNN
-	1    2800 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7500 4150 7500 4050
 Wire Wire Line
@@ -1941,30 +1677,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 1050 3900 1150
 Wire Wire Line
-	1050 1900 1100 1900
-Wire Wire Line
-	1100 1900 1100 2000
-Wire Wire Line
-	1950 2000 1950 1900
-Wire Wire Line
-	1950 1900 1900 1900
-Wire Wire Line
-	2800 2000 2800 1900
-Wire Wire Line
-	2800 1900 2750 1900
-Wire Wire Line
-	2800 2750 2800 2650
-Wire Wire Line
-	2800 2650 2750 2650
-Wire Wire Line
-	1900 2650 1950 2650
-Wire Wire Line
-	1950 2650 1950 2750
-Wire Wire Line
-	1100 2750 1100 2650
-Wire Wire Line
-	1100 2650 1050 2650
-Wire Wire Line
 	800  7600 2500 7600
 Connection ~ 950  7600
 Connection ~ 1050 7600
@@ -2006,10 +1718,10 @@ Wire Wire Line
 	9750 4500 9750 4750
 Connection ~ 9750 4700
 $Comp
-L PWR_FLAG #FLG043
+L PWR_FLAG #FLG037
 U 1 1 54CD6CD2
 P 6800 7400
-F 0 "#FLG043" H 6800 7495 30  0001 C CNN
+F 0 "#FLG037" H 6800 7495 30  0001 C CNN
 F 1 "PWR_FLAG" H 6800 7580 30  0000 C CNN
 F 2 "" H 6800 7400 60  0000 C CNN
 F 3 "" H 6800 7400 60  0000 C CNN
@@ -2017,10 +1729,10 @@ F 3 "" H 6800 7400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG044
+L PWR_FLAG #FLG038
 U 1 1 54CD6D33
 P 6550 7400
-F 0 "#FLG044" H 6550 7495 30  0001 C CNN
+F 0 "#FLG038" H 6550 7495 30  0001 C CNN
 F 1 "PWR_FLAG" H 6550 7580 30  0000 C CNN
 F 2 "" H 6550 7400 60  0000 C CNN
 F 3 "" H 6550 7400 60  0000 C CNN
@@ -2028,10 +1740,10 @@ F 3 "" H 6550 7400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR045
+L GND #PWR039
 U 1 1 54CD6D40
 P 6550 7400
-F 0 "#PWR045" H 6550 7150 60  0001 C CNN
+F 0 "#PWR039" H 6550 7150 60  0001 C CNN
 F 1 "GND" H 6550 7250 60  0000 C CNN
 F 2 "" H 6550 7400 60  0000 C CNN
 F 3 "" H 6550 7400 60  0000 C CNN
@@ -2039,10 +1751,10 @@ F 3 "" H 6550 7400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR046
+L VCC #PWR040
 U 1 1 54CD6E41
 P 6800 7400
-F 0 "#PWR046" H 6800 7250 60  0001 C CNN
+F 0 "#PWR040" H 6800 7250 60  0001 C CNN
 F 1 "VCC" H 6800 7550 60  0000 C CNN
 F 2 "" H 6800 7400 60  0000 C CNN
 F 3 "" H 6800 7400 60  0000 C CNN
@@ -2128,10 +1840,10 @@ sensor1_3
 Text GLabel 5500 2700 3    49   Input ~ 0
 sensor2_3
 $Comp
-L VCC #PWR047
+L VCC #PWR041
 U 1 1 54C726AF
 P 4350 2200
-F 0 "#PWR047" H 4350 2050 60  0001 C CNN
+F 0 "#PWR041" H 4350 2050 60  0001 C CNN
 F 1 "VCC" H 4350 2350 60  0000 C CNN
 F 2 "" H 4350 2200 60  0000 C CNN
 F 3 "" H 4350 2200 60  0000 C CNN
@@ -2145,4 +1857,224 @@ Connection ~ 4700 2200
 Connection ~ 4900 2200
 Connection ~ 5100 2200
 Connection ~ 5300 2200
+$Comp
+L CONN_01X02 P1
+U 1 1 54D59C8D
+P 850 1100
+F 0 "P1" H 850 1250 50  0000 C CNN
+F 1 "Control X" H 850 900 50  0000 C CNN
+F 2 "" H 850 1100 60  0000 C CNN
+F 3 "" H 850 1100 60  0000 C CNN
+	1    850  1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P3
+U 1 1 54D59D2A
+P 1700 1100
+F 0 "P3" H 1700 1250 50  0000 C CNN
+F 1 "Control Y" H 1700 900 50  0000 C CNN
+F 2 "" H 1700 1100 60  0000 C CNN
+F 3 "" H 1700 1100 60  0000 C CNN
+	1    1700 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P5
+U 1 1 54D59DF5
+P 2550 1100
+F 0 "P5" H 2550 1250 50  0000 C CNN
+F 1 "Control Z" H 2550 900 50  0000 C CNN
+F 2 "" H 2550 1100 60  0000 C CNN
+F 3 "" H 2550 1100 60  0000 C CNN
+	1    2550 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P6
+U 1 1 54D59E79
+P 2550 2500
+F 0 "P6" H 2550 2650 50  0000 C CNN
+F 1 "Sensor Z" H 2350 2300 50  0000 C CNN
+F 2 "" H 2550 2500 60  0000 C CNN
+F 3 "" H 2550 2500 60  0000 C CNN
+	1    2550 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 54D59EFA
+P 1700 2500
+F 0 "P4" H 1700 2650 50  0000 C CNN
+F 1 "Sensor Y" H 1700 2300 50  0000 C CNN
+F 2 "" H 1700 2500 60  0000 C CNN
+F 3 "" H 1700 2500 60  0000 C CNN
+	1    1700 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 54D59F80
+P 850 2500
+F 0 "P2" H 850 2650 50  0000 C CNN
+F 1 "Sensor X" H 850 2300 50  0000 C CNN
+F 2 "" H 850 2500 60  0000 C CNN
+F 3 "" H 850 2500 60  0000 C CNN
+	1    850  2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 54D62AE3
+P 3650 1750
+F 0 "P?" H 3650 1900 50  0000 C CNN
+F 1 "Vcc Out" H 3650 1550 50  0000 C CNN
+F 2 "" H 3650 1750 60  0000 C CNN
+F 3 "" H 3650 1750 60  0000 C CNN
+	1    3650 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 54D62B96
+P 3650 2300
+F 0 "P?" H 3650 2450 50  0000 C CNN
+F 1 "Gnd Out" H 3650 2100 50  0000 C CNN
+F 2 "" H 3650 2300 60  0000 C CNN
+F 3 "" H 3650 2300 60  0000 C CNN
+	1    3650 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R21
+U 1 1 54C7D483
+P 2500 6150
+F 0 "R21" V 2500 5800 50  0000 C CNN
+F 1 "20k" V 2500 6150 50  0000 C CNN
+F 2 "" V 2430 6150 30  0001 C CNN
+F 3 "" H 2500 6150 30  0000 C CNN
+	1    2500 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R20
+U 1 1 54C7D47D
+P 2400 6150
+F 0 "R20" V 2400 5800 50  0000 C CNN
+F 1 "20k" V 2400 6150 50  0000 C CNN
+F 2 "" V 2330 6150 30  0001 C CNN
+F 3 "" H 2400 6150 30  0000 C CNN
+	1    2400 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R19
+U 1 1 54C7D477
+P 2300 6150
+F 0 "R19" V 2300 5800 50  0000 C CNN
+F 1 "20k" V 2300 6150 50  0000 C CNN
+F 2 "" V 2230 6150 30  0001 C CNN
+F 3 "" H 2300 6150 30  0000 C CNN
+	1    2300 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R18
+U 1 1 54C7D471
+P 2200 6150
+F 0 "R18" V 2200 5800 50  0000 C CNN
+F 1 "20k" V 2200 6150 50  0000 C CNN
+F 2 "" V 2130 6150 30  0001 C CNN
+F 3 "" H 2200 6150 30  0000 C CNN
+	1    2200 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R17
+U 1 1 54C7CDEB
+P 1900 6150
+F 0 "R17" V 1900 5800 50  0000 C CNN
+F 1 "20k" V 1900 6150 50  0000 C CNN
+F 2 "" V 1830 6150 30  0001 C CNN
+F 3 "" H 1900 6150 30  0000 C CNN
+	1    1900 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R16
+U 1 1 54C7CDE5
+P 1800 6150
+F 0 "R16" V 1800 5800 50  0000 C CNN
+F 1 "20k" V 1800 6150 50  0000 C CNN
+F 2 "" V 1730 6150 30  0001 C CNN
+F 3 "" H 1800 6150 30  0000 C CNN
+	1    1800 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R15
+U 1 1 54C7CDDF
+P 1700 6150
+F 0 "R15" V 1700 5800 50  0000 C CNN
+F 1 "20k" V 1700 6150 50  0000 C CNN
+F 2 "" V 1630 6150 30  0001 C CNN
+F 3 "" H 1700 6150 30  0000 C CNN
+	1    1700 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R14
+U 1 1 54C7CDD9
+P 1600 6150
+F 0 "R14" V 1600 5800 50  0000 C CNN
+F 1 "20k" V 1600 6150 50  0000 C CNN
+F 2 "" V 1530 6150 30  0001 C CNN
+F 3 "" H 1600 6150 30  0000 C CNN
+	1    1600 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R13
+U 1 1 54C7CC8E
+P 1250 6150
+F 0 "R13" V 1250 5800 50  0000 C CNN
+F 1 "20k" V 1250 6150 50  0000 C CNN
+F 2 "" V 1180 6150 30  0001 C CNN
+F 3 "" H 1250 6150 30  0000 C CNN
+	1    1250 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R12
+U 1 1 54C7CC55
+P 1150 6150
+F 0 "R12" V 1150 5800 50  0000 C CNN
+F 1 "20k" V 1150 6150 50  0000 C CNN
+F 2 "" V 1080 6150 30  0001 C CNN
+F 3 "" H 1150 6150 30  0000 C CNN
+	1    1150 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R11
+U 1 1 54C7CC23
+P 1050 6150
+F 0 "R11" V 1050 5800 50  0000 C CNN
+F 1 "20k" V 1050 6150 50  0000 C CNN
+F 2 "" V 980 6150 30  0001 C CNN
+F 3 "" H 1050 6150 30  0000 C CNN
+	1    1050 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R10
+U 1 1 54C5F5D2
+P 950 6150
+F 0 "R10" V 950 5800 50  0000 C CNN
+F 1 "20k" V 950 6150 50  0000 C CNN
+F 2 "" V 880 6150 30  0001 C CNN
+F 3 "" H 950 6150 30  0000 C CNN
+	1    950  6150
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
