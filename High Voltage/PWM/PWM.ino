@@ -3,7 +3,7 @@ int pwmPin1 = 5;
 int pwmPin2 = 6;
 int pwmPin3 = 7;
 //Variables
-int RESOLUTION = 256;//8 bits max resolution
+int RESOLUTION = 256;//8 bits max resolution (DO NOT CHANGE)
 //Duty cycle for each pin - Change accordingly - Max of 0.5 increments
 float d_cycle1=50;
 float d_cycle2=20;
