@@ -1,27 +1,30 @@
-int pwmPin1 = 5;// Pin numbers
+//Pin numbers - Change accordingly
+int pwmPin1 = 5;
 int pwmPin2 = 6;
 int pwmPin3 = 7;
-
-int RESOLUTION = 256;
-float v = 19; // variable to store the read value
-float d=0;
-
+//Variables
+int RESOLUTION = 256;//8 bits max resolution
+//Duty cycle for each pin - Change accordingly - Max of 0.5 increments
+float d_cycle1=50;
+float d_cycle2=20;
+float d_cycle3=15.5;
 
 void setup()
 {
-  analogWriteFrequency(pwmPin, 1000);
-  analogWriteFrequency(pwm2Pin, 1000);
-  pinMode(pwmPin, OUTPUT);   // sets the pin as output
-  pinMode(pwm2Pin, OUTPUT);  
+  //Setting the pins to 1kHz frequency
+  analogWriteFrequency(pwmPin1, 1000);
+  analogWriteFrequency(pwmPin2, 1000);
+  analogWriteFrequency(pwmPin3, 1000);
+  //Set the pins as outputs
+  pinMode(pwmPin1, OUTPUT);
+  pinMode(pwmPin2, OUTPUT);  
+  pinMode(pwmPin3, OUTPUT);
 }
 
 void loop()
 {
-//  val = analogRead(analogPin);   // read the input pin
-  d=res*val/100;
-  analogWrite(pwmPin, d);  // analogRead values go from 0 to 1023, analogWrite values from 0 to 255
-  analogWrite(pwm2Pin, d);
+  analogWrite(pwmPin1, RESOLUTION*d_cycle1/100);
+  analogWrite(pwmPin2, RESOLUTION*d_cycle2/100);
+  analogWrite(pwmPin3, RESOLUTION*d_cycle3/100);
 }
 
-//analogWrite(3,50);
-//analogWrite(4,140);
