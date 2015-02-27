@@ -561,9 +561,9 @@ Text GLabel 1900 7050 1    49   Input ~ 0
 enable2
 Text GLabel 1800 6400 3    49   Input ~ 0
 sleep2
-Text GLabel 2200 6400 3    49   Input ~ 0
-step3
 Text GLabel 2300 6400 3    49   Input ~ 0
+step3
+Text GLabel 2200 6400 3    49   Input ~ 0
 dir3
 Text GLabel 2500 6400 3    49   Input ~ 0
 reset3
