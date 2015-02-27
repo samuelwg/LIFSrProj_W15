@@ -13,7 +13,7 @@ int RESOLUTION = 256;//8 bits max resolution (DO NOT CHANGE)
 float d_cycle1 = 100;
 float d_cycle2 = 100;
 float d_cycle3 = 100;
-float d_cycle4 = 99; //HV on
+float d_cycle4 = 100; //HV on: straight 3.3V DC
 int incomingByte=0;
 
 void setup()
