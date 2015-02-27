@@ -3,9 +3,9 @@ To use the Serial Port (USB), we must not use pin 0 and 1 (Tx and Rx) for digita
 input or output. I believe this is always true for arduino but maybe for teensy too
 */
 //Pin numbers - Change accordingly
-int pwmPin1 = 3;
-int pwmPin2 = 4;
-int pwmPin3 = 5;
+int pwmPin1 = 4;
+int pwmPin2 = 5;
+int pwmPin3 = 20;
 int pwmPin4 = 6;//HV control
 //Variables
 int RESOLUTION = 256;//8 bits max resolution (DO NOT CHANGE)

@@ -30,6 +30,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:teensy3.1
+LIBS:xyz_driver_parts
+LIBS:XYZboard-cache
 LIBS:Parent Folder-cache
 EELAYER 25 0
 EELAYER END
