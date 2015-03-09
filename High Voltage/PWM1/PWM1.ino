@@ -49,9 +49,9 @@ void loop()
         analogWrite(pwmPin4, RESOLUTION*d_cycle4/100);//HV on
         break;
       case 50://Number 2 in 8-bit decimal
-        // statements
-        analogWrite(pwmPin1, RESOLUTION*(d_cycle1-100)/100);
-        analogWrite(pwmPin2, RESOLUTION*(d_cycle2-100)/100);
+        // Flowing/Testing
+        analogWrite(pwmPin1, RESOLUTION*(d_cycle1-71)/100);
+        analogWrite(pwmPin2, RESOLUTION*(d_cycle2-71)/100);
         analogWrite(pwmPin3, RESOLUTION*(d_cycle3-100)/100);
         analogWrite(pwmPin4, RESOLUTION*d_cycle4/100);
         break;
