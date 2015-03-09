@@ -11,6 +11,6 @@ void loop() {
   analogWrite(A14, (int)val);
   phase = phase + 0.02;
   if (phase >= twopi) phase = 0;
-  while (usec < 500) ; // wait
+  while (usec < 500) ; // wait (this sets up the frequency)
   usec = usec - 500;
 }
