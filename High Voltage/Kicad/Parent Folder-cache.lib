@@ -173,4 +173,17 @@ X P22 29 800 200 300 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# Test_point
+#
+DEF ~Test_point TP 0 0 N N 1 F N
+F0 "TP" 0 250 49 H V C CNN
+F1 "Test_point" 0 350 49 H I C CNN
+F2 "" 0 0 49 H V C CNN
+F3 "" 0 0 49 H V C CNN
+DRAW
+P 5 0 1 0  0 200  -50 150  0 100  50 150  0 200 N
+X ~ 1 0 0 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

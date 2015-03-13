@@ -701,4 +701,59 @@ F 3 "" H 1950 5500 60  0000 C CNN
 	1    1950 5500
 	-1   0    0    1   
 $EndComp
+$Comp
+L Test_point TP?
+U 1 1 54FE0871
+P 2300 900
+F 0 "TP?" H 2300 1150 49  0000 C CNN
+F 1 "Test_point" H 2300 1250 49  0001 C CNN
+F 2 "" H 2300 900 49  0000 C CNN
+F 3 "" H 2300 900 49  0000 C CNN
+	1    2300 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Test_point TP?
+U 1 1 54FE1798
+P 2400 2700
+F 0 "TP?" H 2400 2950 49  0000 C CNN
+F 1 "Test_point" H 2400 3050 49  0001 C CNN
+F 2 "" H 2400 2700 49  0000 C CNN
+F 3 "" H 2400 2700 49  0000 C CNN
+	1    2400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Test_point TP?
+U 1 1 54FE17D0
+P 2400 1475
+F 0 "TP?" H 2400 1725 49  0000 C CNN
+F 1 "Test_point" H 2400 1825 49  0001 C CNN
+F 2 "" H 2400 1475 49  0000 C CNN
+F 3 "" H 2400 1475 49  0000 C CNN
+	1    2400 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Test_point TP?
+U 1 1 54FE33BF
+P 2400 3950
+F 0 "TP?" H 2400 4200 49  0000 C CNN
+F 1 "Test_point" H 2400 4300 49  0001 C CNN
+F 2 "" H 2400 3950 49  0000 C CNN
+F 3 "" H 2400 3950 49  0000 C CNN
+	1    2400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Test_point TP?
+U 1 1 54FE5643
+P 2450 5200
+F 0 "TP?" H 2450 5450 49  0000 C CNN
+F 1 "Test_point" H 2450 5550 49  0001 C CNN
+F 2 "" H 2450 5200 49  0000 C CNN
+F 3 "" H 2450 5200 49  0000 C CNN
+	1    2450 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
