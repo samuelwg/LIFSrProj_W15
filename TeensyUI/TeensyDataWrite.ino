@@ -1,15 +1,17 @@
 int val;
+int val2;
 IntervalTimer timer0;
 
 void SampleVoltage() {
   val = analogRead(0);
-  //Serial.print("analog 0 is: ");
-  //val = val*3.3/1024;
+  val2 = analogRead(1);
   unsigned char serialBytes[2];
   serialBytes[0] = (val >> 8) & 0xff;
   serialBytes[1] = val & 0xff;
   Serial.write(serialBytes,2);
-  //Serial.println(" Volts");
+  serialBytes[0] = (val2 >> 8) & 0xff;
+  serialBytes[1] = val2 & 0xff;
+  Serial.write(serialBytes,2);
 }
 
 void timer_setup() {
