@@ -1,0 +1,332 @@
+Cmp-Mod V01 Created by Cvpcb (2014-10-31 BZR 5247)-product   date = Tuesday, March 17, 2015 'AMt' 10:14:08 AM
+
+BeginCmp
+TimeStamp = /54E5B91C;
+Reference = C1;
+ValeurCmp = .2u;
+IdModule  = mylib:Cap_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E64631;
+Reference = C2;
+ValeurCmp = 22n;
+IdModule  = mylib:Cap_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E6D1B3;
+Reference = C3;
+ValeurCmp = 10n;
+IdModule  = mylib:Cap_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E64839;
+Reference = C4;
+ValeurCmp = 33n;
+IdModule  = mylib:Cap_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E6518C;
+Reference = C5;
+ValeurCmp = 33n;
+IdModule  = mylib:Cap_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E68C30;
+Reference = C6;
+ValeurCmp = 22n;
+IdModule  = mylib:Cap_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E68802;
+Reference = C7;
+ValeurCmp = 470p;
+IdModule  = mylib:Cap_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E68BBB;
+Reference = C8;
+ValeurCmp = 10n;
+IdModule  = mylib:Cap_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E62BD1;
+Reference = C9;
+ValeurCmp = .2u;
+IdModule  = mylib:Cap_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5AB85;
+Reference = C10;
+ValeurCmp = 15n;
+IdModule  = mylib:Cap_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5AB0D;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = mylib:Diode_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /55086059;
+Reference = P1;
+ValeurCmp = CONN_01X02;
+IdModule  = mylib:Pin_Header_1x02_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E55190;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = mylib:Pin_Header_1x02_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5554E;
+Reference = P3;
+ValeurCmp = CONN_01X02;
+IdModule  = mylib:Pin_Header_1x02_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508A66D;
+Reference = P4;
+ValeurCmp = CONN_01X02;
+IdModule  = mylib:Pin_Header_1x02_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508AA04;
+Reference = P5;
+ValeurCmp = CONN_01X02;
+IdModule  = mylib:Pin_Header_1x02_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E55945;
+Reference = P6;
+ValeurCmp = CONN_01X02;
+IdModule  = mylib:Pin_Header_1x02_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508AB53;
+Reference = P7;
+ValeurCmp = CONN_01X02;
+IdModule  = mylib:Pin_Header_1x02_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E554D9;
+Reference = P8;
+ValeurCmp = CONN_01X02;
+IdModule  = mylib:Pin_Header_1x02_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E559BB;
+Reference = P9;
+ValeurCmp = CONN_01X02;
+IdModule  = mylib:Pin_Header_1x02_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E7CE53;
+Reference = P10;
+ValeurCmp = CONN_01X02;
+IdModule  = mylib:Pin_Header_1x02_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508877C;
+Reference = P11;
+ValeurCmp = CONN_01X02;
+IdModule  = mylib:Pin_Header_1x02_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5B8AE;
+Reference = R1;
+ValeurCmp = 33k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5BB6D;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5DFDB;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5B831;
+Reference = R4;
+ValeurCmp = 33k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5BAEC;
+Reference = R5;
+ValeurCmp = 12k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E6DB85;
+Reference = R6;
+ValeurCmp = 5.6k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E6D13A;
+Reference = R7;
+ValeurCmp = 22k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E646B0;
+Reference = R8;
+ValeurCmp = 4.7k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E64B3D;
+Reference = R9;
+ValeurCmp = 480k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E64A63;
+Reference = R10;
+ValeurCmp = 480k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E64BE8;
+Reference = R11;
+ValeurCmp = 15k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E68784;
+Reference = R12;
+ValeurCmp = 11k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E694B3;
+Reference = R13;
+ValeurCmp = 120k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E6958D;
+Reference = R14;
+ValeurCmp = 33k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E62BCB;
+Reference = R15;
+ValeurCmp = 33k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E62BDD;
+Reference = R16;
+ValeurCmp = 1k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E62BE3;
+Reference = R17;
+ValeurCmp = 1k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E62BC5;
+Reference = R18;
+ValeurCmp = 33k;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5ABF5;
+Reference = R19;
+ValeurCmp = 1meg;
+IdModule  = mylib:Resistor_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E77238;
+Reference = RV1;
+ValeurCmp = 100-100k;
+IdModule  = mylib:Potentiometer_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DB8A15;
+Reference = U1;
+ValeurCmp = LT1677;
+IdModule  = mylib:DIP-8__300_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC55BE;
+Reference = U2;
+ValeurCmp = SiPM;
+IdModule  = mylib:SiPM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DBDBB6;
+Reference = U3;
+ValeurCmp = LT1677;
+IdModule  = mylib:DIP-8__300_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DBF610;
+Reference = U4;
+ValeurCmp = LT1677;
+IdModule  = mylib:DIP-8__300_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E62B98;
+Reference = U5;
+ValeurCmp = LT1677;
+IdModule  = mylib:DIP-8__300_Shop;
+EndCmp
+
+EndListe
