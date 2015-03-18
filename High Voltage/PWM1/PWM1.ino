@@ -42,11 +42,11 @@ void loop()
     switch (incomingByte)//Cases are in DEC format 
     {
       case 49://Number 1 in 8-bit decimal
-        // statements
+        //HV on
         analogWrite(pwmPin1, RESOLUTION*d_cycle1/100);
         analogWrite(pwmPin2, RESOLUTION*d_cycle2/100);
         analogWrite(pwmPin3, RESOLUTION*d_cycle3/100);        
-        analogWrite(pwmPin4, RESOLUTION*d_cycle4/100);//HV on
+        analogWrite(pwmPin4, RESOLUTION*d_cycle4/100);
         break;
       case 50://Number 2 in 8-bit decimal
         // Flowing/Testing
@@ -55,7 +55,7 @@ void loop()
         analogWrite(pwmPin3, RESOLUTION*(d_cycle3-100)/100);
         analogWrite(pwmPin4, RESOLUTION*d_cycle4/100);
         break;
-      case 51:
+      case 51://Number 3 in 8-bit decimal
         //Loading
         analogWrite(pwmPin1, RESOLUTION*(d_cycle1-100)/100);
         analogWrite(pwmPin2, RESOLUTION*(d_cycle2-68)/100);
