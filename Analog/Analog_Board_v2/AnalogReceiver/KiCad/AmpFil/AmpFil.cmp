@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-31 BZR 5247)-product   date = Tuesday, March 17, 2015 'AMt' 10:14:08 AM
+Cmp-Mod V01 Created by Cvpcb (2014-10-31 BZR 5247)-product   date = Wednesday, March 18, 2015 'PMt' 03:07:07 PM
 
 BeginCmp
 TimeStamp = /54E5B91C;
@@ -67,6 +67,20 @@ BeginCmp
 TimeStamp = /54E5AB85;
 Reference = C10;
 ValeurCmp = 15n;
+IdModule  = mylib:Cap_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /5509F809;
+Reference = C11;
+ValeurCmp = 150u;
+IdModule  = mylib:Cap_Horizontal_Shop;
+EndCmp
+
+BeginCmp
+TimeStamp = /5509F4B1;
+Reference = C12;
+ValeurCmp = 150u;
 IdModule  = mylib:Cap_Horizontal_Shop;
 EndCmp
 
