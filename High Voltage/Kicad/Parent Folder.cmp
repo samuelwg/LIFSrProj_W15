@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/24/2015 8:27:40 AM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/25/2015 7:27:03 PM
 
 BeginCmp
 TimeStamp = /54EFC593;
@@ -54,62 +54,6 @@ TimeStamp = /55044F41;
 Reference = C8;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_1206_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /550AE64C;
-Reference = P1;
-ValeurCmp = CONN_01X01;
-IdModule  = Connect:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /550AE4CF;
-Reference = P2;
-ValeurCmp = CONN_01X01;
-IdModule  = Connect:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /550AE6B7;
-Reference = P3;
-ValeurCmp = CONN_01X01;
-IdModule  = Connect:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /551119B0;
-Reference = P4;
-ValeurCmp = CONN_01X01;
-IdModule  = Connect:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /551317E4;
-Reference = P5;
-ValeurCmp = CONN_01X01;
-IdModule  = Connect:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /55131598;
-Reference = P6;
-ValeurCmp = CONN_01X01;
-IdModule  = Connect:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /55143B4A;
-Reference = P7;
-ValeurCmp = CONN_01X01;
-IdModule  = Connect:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /55143BF0;
-Reference = P8;
-ValeurCmp = CONN_01X01;
-IdModule  = Connect:1pin;
 EndCmp
 
 BeginCmp
@@ -395,6 +339,125 @@ EndCmp
 BeginCmp
 TimeStamp = /5511477D;
 Reference = TP5;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /55136079;
+Reference = TP6;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513C28A;
+Reference = TP7;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /55135706;
+Reference = TP8;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513AB04;
+Reference = TP9;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /55135C92;
+Reference = TP10;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513ADF4;
+Reference = TP11;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /55139F30;
+Reference = TP12;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513C41B;
+Reference = TP13;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513C29A;
+Reference = TP14;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /55137624;
+Reference = TP15;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513C3C8;
+Reference = TP16;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513C43E;
+Reference = TP17;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513C49D;
+Reference = TP18;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513C992;
+Reference = TP19;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513CA0F;
+Reference = TP20;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513CA71;
+Reference = TP21;
+ValeurCmp = Test_point;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513CD5B;
+Reference = TP22;
 ValeurCmp = Test_point;
 IdModule  = Connect:PINTST;
 EndCmp
