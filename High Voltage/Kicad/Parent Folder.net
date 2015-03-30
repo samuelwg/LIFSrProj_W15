@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\Christian\\Documents\\GitHub\\LIFSrProj_W15\\High Voltage\\Kicad\\Parent Folder.sch")
-    (date "3/25/2015 8:10:11 PM")
+    (source "C:/Users/Christian/Documents/GitHub/LIFSrProj_W15/High Voltage/Kicad/Parent Folder.sch")
+    (date "3/26/2015 5:34:54 PM")
     (tool "Eeschema (2015-01-16 BZR 5376)-product"))
   (components
     (comp (ref U3)
@@ -426,15 +426,33 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5513CD5B)))
   (libparts
-    (libpart (lib teensy3.1) (part EMCO_F40)
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
       (fields
-        (field (name Reference) U)
-        (field (name Value) EMCO_F40))
+        (field (name Reference) C)
+        (field (name Value) C))
       (pins
-        (pin (num 1) (name "(+)In") (type input))
-        (pin (num 2) (name "(-)In") (type input))
-        (pin (num 3) (name "(+)Out") (type output))
-        (pin (num 4) (name "(-)Out") (type input))))
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib transistors) (part BUT11)
+      (aliases
+        (alias BUT11A))
+      (description "BUT11, 5A 400V, Silicon Power Transistors NPN, TO-220")
+      (docs http://www.fairchildsemi.com/ds/BU/BUT11.pdf)
+      (footprints
+        (fp TO*))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) BUT11)
+        (field (name Footprint) TO220))
+      (pins
+        (pin (num 1) (name B) (type input))
+        (pin (num 2) (name C) (type passive))
+        (pin (num 3) (name E) (type passive))))
     (libpart (lib linear) (part OP275)
       (aliases
         (alias ADA4075))
@@ -452,33 +470,6 @@
         (pin (num 6) (name -) (type input))
         (pin (num 7) (name ~) (type output))
         (pin (num 8) (name V+) (type power_in))))
-    (libpart (lib transistors) (part BUT11)
-      (aliases
-        (alias BUT11A))
-      (description "BUT11, 5A 400V, Silicon Power Transistors NPN, TO-220")
-      (docs http://www.fairchildsemi.com/ds/BU/BUT11.pdf)
-      (footprints
-        (fp TO*))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) BUT11)
-        (field (name Footprint) TO220))
-      (pins
-        (pin (num 1) (name B) (type input))
-        (pin (num 2) (name C) (type passive))
-        (pin (num 3) (name E) (type passive))))
-    (libpart (lib device) (part C)
-      (description "Condensateur non polarise")
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part NPN)
       (docs transistors/bipolar/*.*)
       (fields
@@ -502,6 +493,15 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib teensy3.1) (part EMCO_F40)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) EMCO_F40))
+      (pins
+        (pin (num 1) (name "(+)In") (type input))
+        (pin (num 2) (name "(-)In") (type input))
+        (pin (num 3) (name "(+)Out") (type output))
+        (pin (num 4) (name "(-)Out") (type input))))
     (libpart (lib teensy3.1) (part STN0214)
       (description "2SA1016, 50V Vce, 0.15A Ic, Low Noise Audio PNP Transistor, TO-92")
       (docs http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf)
@@ -571,16 +571,16 @@
         (pin (num 2) (name ~) (type passive))
         (pin (num 3) (name ~) (type passive)))))
   (libraries
+    (library (logical device)
+      (uri C:\KiCad\share\library\device.lib))
+    (library (logical transistors)
+      (uri C:\KiCad\share\library\transistors.lib))
     (library (logical linear)
       (uri C:\KiCad\share\library\linear.lib))
     (library (logical teensy3.1)
       (uri "C:\\KiCad\\share\\library\\Kicad Custom Library\\teensy3.1.lib"))
     (library (logical xyz_driver_parts)
-      (uri C:\Users\Christian\Documents\GitHub\LIFSrProj_W15\XYZ_control\XYZ_board\xyz_driver_parts.lib))
-    (library (logical device)
-      (uri C:\KiCad\share\library\device.lib))
-    (library (logical transistors)
-      (uri C:\KiCad\share\library\transistors.lib)))
+      (uri C:\Users\Christian\Documents\GitHub\LIFSrProj_W15\XYZ_control\XYZ_board\xyz_driver_parts.lib)))
   (nets
     (net (code 1) (name "Net-(U3-Pad9)")
       (node (ref U3) (pin 9)))
