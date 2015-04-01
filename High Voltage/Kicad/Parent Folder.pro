@@ -1,4 +1,4 @@
-update=2/26/2015 5:40:55 PM
+update=3/25/2015 9:16:35 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -62,3 +60,5 @@ LibName30=valves
 LibName31=Kicad Custom Library/teensy3.1
 LibName32=C:/Users/Christian/Documents/GitHub/LIFSrProj_W15/XYZ_control/XYZ_board/xyz_driver_parts
 LibName33=C:/Users/Christian/Documents/GitHub/LIFSrProj_W15/XYZ_control/XYZ_board/XYZboard-cache
+[general]
+version=1
